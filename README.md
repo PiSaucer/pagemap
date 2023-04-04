@@ -1,19 +1,21 @@
 # pagemap
 
-[![license][license-img]][github] [![web][web-img]][web] [![github][github-img]][github] [![npm][npm-img]][npm]  
-[![version][npm-v-img]][npm] [![downloads][npm-dm-img]][npm]
+[![license][license-img]][github] [![github][github-img]][github] [![npm][npm-img]][npm] [![version][npm-v-img]][npm] [![downloads][npm-dm-img]][npm]
 
 Mini map for web pages.
 
+Mini map for web pages. You can find an example on this web site in the top right corner. And there are two more demo pages: [boxes](demo/boxes.html) and [text](demo/text.html).
 
 ## Example usage
 
 add a `canvas` tag to your HTML page:
+
 ```html
 <canvas id='map'></canvas>
 ```
 
 fix it's position on the screen:
+
 ```css
 #map {
     position: fixed;
@@ -26,6 +28,7 @@ fix it's position on the screen:
 ```
 
 init and style the mini map:
+
 ```js
 pagemap(document.querySelector('#map'), {
     viewport: null,
@@ -43,6 +46,7 @@ pagemap(document.querySelector('#map'), {
 
 
 ## License
+
 The MIT License (MIT)
 
 Copyright (c) 2020 Lars Jung (https://larsjung.de)
@@ -66,13 +70,11 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 
-[web]: https://larsjung.de/pagemap/
-[github]: https://github.com/lrsjng/pagemap
+[github]: https://github.com/pisaucer/pagemap
 [npm]: https://www.npmjs.org/package/pagemap
 
 [license-img]: https://img.shields.io/badge/license-MIT-a0a060.svg?style=flat-square
-[web-img]: https://img.shields.io/badge/web-larsjung.de/pagemap-a0a060.svg?style=flat-square
-[github-img]: https://img.shields.io/badge/github-lrsjng/pagemap-a0a060.svg?style=flat-square
+[github-img]: https://img.shields.io/badge/github-pisaucer/pagemap-a0a060.svg?style=flat-square
 [npm-img]: https://img.shields.io/badge/npm-pagemap-a0a060.svg?style=flat-square
 
 [npm-v-img]: https://img.shields.io/npm/v/pagemap.svg?style=flat-square
